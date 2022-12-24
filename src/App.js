@@ -5,6 +5,8 @@ import About from './AboutUs';
 
 import Navbar from './Navbar';
 import Footer from './Footer';
+import Gallery from './gallery';
+import { IoIosHeart } from "react-icons/io";
 
 function App() {
 
@@ -28,6 +30,13 @@ function App() {
   </div>
   <About/>
   <Content/>
+  <Gallery/>
+  
+
+  <div className='place-items-center justify-center flex flex-col'>
+  <h1 className='text-center font-bold text-green-800 dark:text-green-400 text-3xl py-10'>Thanks for see my website i still update this website</h1>
+  <h1 className='items-center font-bold text-3xl text-pink-700'><IoIosHeart/></h1>
+  </div>
 
   </div>
   </div>
