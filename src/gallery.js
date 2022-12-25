@@ -10,11 +10,11 @@ function Gallery() {
     <> 
     <h1 className='text-3xl text-center  text-green-800 dark:text-green-400 font-bold py-10'>Gallery</h1>
     <div className="grid lg:grid-cols-3 md:grid-cols-2 place-items-center gap-6">
-    <img src={photo1} className="max-w-sm"></img>
-    <img src={photo2}  className="max-w-sm"></img>
-    <img src={photo3}  className="max-w-sm"></img>
-    <img src={photo4}  className="max-w-sm"></img>
-    <img src={photo5}  className="max-w-sm"></img>   
+    <img src={photo1} className="max-w-sm" alt='My Big Project Campus'></img>
+    <img src={photo2}  className="max-w-sm" alt='My Big Project Campus'></img>
+    <img src={photo3}  className="max-w-sm" alt='My Big Project Campus'></img>
+    <img src={photo4}  className="max-w-sm" alt='Design Skin Osu'></img>
+    <img src={photo5}  className="max-w-sm" alt='My Big Project Campus'></img>   
     </div>
   </>
   );

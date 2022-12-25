@@ -17,7 +17,7 @@ function About() {
             </p>
         </div>
         <div className='max-w-md'>
-           <img src={knoyan}></img>
+           <img src={knoyan} alt="This is Knoyan Mitsu My Original Character"></img>
         </div>
         </div>
   </>
